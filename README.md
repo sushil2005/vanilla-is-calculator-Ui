@@ -21,16 +21,6 @@ This project is designed to practice DOM manipulation, event handling, and UI de
 - CSS3 (Flexbox + Grid)
 - JavaScript (ES6)
 
----
-
-## 📸 Preview
-
-> Add a screenshot here after running the project
-
----
-
-## 📂 Project Structure
-
 ```text
 Calculator-Project/
 │
