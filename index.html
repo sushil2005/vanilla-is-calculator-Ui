@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Result Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+
+  <!-- INPUT SECTION -->
+  <h2>Calculator</h2>
+
+  <input type="number" id="num1" placeholder="Enter first number">
+  <input type="number" id="num2" placeholder="Enter second number">
+
+  <select id="operator">
+    <option value="+">Add (+)</option>
+    <option value="-">Subtract (-)</option>
+    <option value="*">Multiply (×)</option>
+    <option value="/">Divide (÷)</option>
+  </select>
+
+  <button onclick="calculate()">Calculate</button>
+
+  <!-- RESULT SECTION -->
+  <div class="result-box">
+    <h3>Result:</h3>
+    <p id="result">0</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
